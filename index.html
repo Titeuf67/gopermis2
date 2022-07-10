@@ -79,10 +79,11 @@
   <!-- fin de  navbar gopermis-->
   <!-- header -->
   <header>
+    <img src="/facade.jpg" alt="" class="bg-img img-fluid">
   </header>
   <!-- section presentation -->
   <section class="d-flex justify-content-center align-items-center">
-    <div class="card mb-3" style="max-width: 540px;">
+    <div class="card mb-3" style="max-width:1000px;">
       <div class="row g-0">
         <div class="card-body">
           <h5 class="card-title">Bienvenue sur GoPermis</h5>
@@ -96,56 +97,64 @@
   </section>
   <!-- section avec carousel list de card -->
   <section class="container d-flex justify-content-center align-items-center bg-dark bg-opacity-10">
-    <div class="col-md-8">
+    <div class="col-lg-8">
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
         <div class=" card-body carousel-inner">
           <div class="card carousel-item active">
             <div class="row">
-              <div class="col-md-7">
-                <img src="/auto7.jpg" alt="" class="img-fluid rounded-start" srcset="">
+              <div class="col-lg-8">
+                <img src="/auto.jpg" alt="" class="img-fluid rounded-start" srcset="">
               </div>
-              <div class=" card-body col-md-3 mt-5 m-auto">
+              <div class=" card-body col-lg-4 mt-5 row">
                 <h6 class="card-title"> Le Permis auto (Permis B)</h6>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et in inventore ab
                   necessitatibus.
                   Eligendi, quis, in veritatis ratione tempore quod aperiam iusto pariatur amet architecto voluptate
                   quo, fuga corrupti non.
                 </p>
+                <div class=" d-flex justify-content-center align-items-end">
+                  <button class="btn btn-outline-secondary" type="submit">Inscription sur le site</button>
+                </div>
               </div>
             </div>
           </div>
 
           <div class="card carousel-item">
             <div class="row">
-              <div class="col-md-7">
-                <img src="/moto5.jpg" alt="" class="img-fluid rounded-start" srcset="">
+              <div class="col-lg-8">
+                <img src="/moto1.jpg" alt="" class="img-fluid rounded-start" srcset="">
               </div>
-              <div class="card-body col-md-3 mt-5 m-auto">
+              <div class="card-body col-lg-4 mt-5 row">
                 <h6 class="card-title">Le Permis moto (Permis A)</h6>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et in inventore ab
                   necessitatibus.
                   Eligendi, quis, in veritatis ratione tempore quod aperiam iusto pariatur amet architecto voluptate
                   quo, fuga corrupti non.
                 </p>
+                <div class="d-flex justify-content-center align-items-end">
+                  <button class="btn btn-outline-secondary" type="submit">Inscription sur le site</button>
+                </div>
               </div>
             </div>
           </div>
 
           <div class="card carousel-item">
             <div class="row">
-              <div class="col-md-7">
-                <img src="/scooter.jpg" alt="" class="img-fluid rounded-start" srcset="">
+              <div class="col-lg-8">
+                <img src="/vespa.jpg" alt="" class="img-fluid rounded-start" srcset="">
               </div>
-              <div class=" card-body col-md-3 mt-5 m-auto">
-                <div>
-                  <h6 class="card-title">Permis Scooter (Permis AM)</h6>
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et in inventore ab
-                    necessitatibus.
-                    Eligendi, quis, in veritatis ratione tempore quod aperiam iusto pariatur amet architecto
-                    voluptate
-                    quo, fuga corrupti non.
-                  </p>
+              <div class=" card-body col-lg-4 mt-5 row">
+                <h6 class="card-title">Permis Scooter (Permis AM)</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et in inventore ab
+                  necessitatibus.
+                  Eligendi, quis, in veritatis ratione tempore quod aperiam iusto pariatur amet architecto
+                  voluptate
+                  quo, fuga corrupti non.
+                </p>
+                <div class="d-flex justify-content-center align-items-end">
+                  <button class="btn btn-outline-secondary" type="submit">Inscription sur le site</button>
                 </div>
+
               </div>
             </div>
           </div>
@@ -218,7 +227,7 @@
           </div>
         </div>
       </div>
-      <div class="d-flex justify-content-center my-4">
+      <div class="d-flex justify-content-center my-5">
         <button type="envoyer" class="btn btn-success">Valider</button>
       </div>
     </div>
@@ -226,35 +235,41 @@
   <!-- fin du formulaire de contact -->
 
   <!-- formulaire d'inscription -->
-  <div class="container col-md-10 bg-dark bg-opacity-10">
+  <div class="container bg-dark bg-opacity-10">
     <p class="text-center pt-5">Je m'inscris sur Go-permis<br> et<br> j'accède à toutes les offres</p>
-    <div class=" card m-5">
-      <div class="m-5">
+
+    <div class="row justify-content-center">
+      <div class="col-md-6">
         <label for="exampleFormControlInput1" class="form-label">Nom</label>
         <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="name">
         <label for="exampleFormControlInput1" class="form-label">Prénom</label>
         <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="name">
+      </div>
+      <div class="col-md-6">
         <label for="exampleFormControlInput1" class="form-label">Telephone</label>
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="0606060606">
         <label for="exampleFormControlInput1" class="form-label">e-mail</label>
-
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
       </div>
-      <div class="m-5">
+    </div>
+
+    <div class="d-flex justify-content-center my-5">
+      <div class="col-md-6">
         <label for="exampleFormControlInput1" class="form-label">Identifiant</label>
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="identifiant">
         <label for="exampleFormControlInput1" class="form-label">Mot de passe</label>
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="mot de passe">
       </div>
-      <h5 class="text-center m-5">Conditions générales</h5>
-      <p class="text-center m-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime atque porro commodi
-        deserunt facilis
-        voluptatibus
-        non, libero expedita provident id.</p>
-      <div class="d-flex justify-content-center mb-5">
-        <button type="envoyer" class="btn btn-success mb-5 m-2">Validation</button>
-      </div>
     </div>
+    <h5 class="text-center my-5">Conditions générales</h5>
+    <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime atque porro commodi
+      deserunt facilis
+      voluptatibus
+      non, libero expedita provident id.</p>
+    <div class="d-flex justify-content-center my-5">
+      <button type="envoyer" class="btn btn-success mb-5 m-2">Validation</button>
+    </div>
+
   </div>
   <!-- footer -->
 
@@ -276,144 +291,154 @@
   <!-- formulaire inscription permis -->
   <div class="container bg-success bg-opacity-10">
     <h5 class="text-center m-5 pt-5">Inscription au permis en ligne</h5>
-    <p>Vous souhaitez vous inscrire à notre auto-école en vu de faire une formation, des informations supplémentaires
-      sont nécessaire
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident vel iste repellendus ad praesentium, nihil
-      voluptatibus quisquam officiis totam? Quibusdam!</p>
-    </p>
-    <div class="container row m-2 p-2">
+    <div class="mx-5">
+      <p>Vous souhaitez vous inscrire à notre auto-école en vu de faire une formation, des informations supplémentaires
+        sont nécessaire
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident vel iste repellendus ad praesentium, nihil
+        voluptatibus quisquam officiis totam? Quibusdam!</p>
+      </p>
+    </div>
+    <div class="container row">
       <div class="col-md-6">
-        <p>Nom</p>
-        <p>Prénom</p>
-        <p>Numéro de téléphone</p>
-        <p>Adresse email</p>
+        <p>Nom :</p>
+        <p>Prénom :</p>
+        <p>Numéro de téléphone :</p>
+        <p>Adresse email :</p>
 
-        <label for="exampleFormControlInput1" class="form-label">Date de naissance</label>
+        <label for="exampleFormControlInput1" class="form-label">Date de naissance :</label>
         <div class="d-flex">
           <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="jour">
-          <input type="name" class="form-control mx-auto" id="exampleFormControlInput1" placeholder="mois">
+          <input type="name" class="form-control mx-4" id="exampleFormControlInput1" placeholder="mois">
           <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="année">
         </div>
-        <p>Adresse</p>
-        <label for="exampleFormControlInput1" class="form-label">Voie</label>
-        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="name">
-        <label for="exampleFormControlInput1" class="form-label">Nom de la voie</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="0606060606">
-        <label for="exampleFormControlInput1" class="form-label">Code postal</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="0606060606">
-        <label for="exampleFormControlInput1" class="form-label">Ville</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="0606060606">
-        <label for="exampleFormControlInput1" class="form-label">NETH</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="0606060606">
+        <p class="my-4">Adresse :</p>
+        <label for="exampleFormControlInput1" class="form-label">Numero de Voie :</label>
+        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="numero de voie">
+        <label for="exampleFormControlInput1" class="form-label">voie :</label>
+        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="type de voie">
+        <label for="exampleFormControlInput1" class="form-label">Nom de la voie :</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="voie">
+        <label for="exampleFormControlInput1" class="form-label">Code postal :</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="code postal">
+        <label for="exampleFormControlInput1" class="form-label">Ville :</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ville">
+        <label for="exampleFormControlInput1" class="form-label">NETH :</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="si vous en avez un">
       </div>
       <!-- colonne de droite -->
       <div class="col-md-6">
         <!-- question 1 -->
-        <div class="d-flex m-2">
-          <p class="px-2">Avez vous déjà passé et obtenu l'examen du code dans les 5 dernieres années ?</p>
-          <div class=" d-flex">
-            <div>
-              <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value=""
-                aria-label="...">
-            </div>
+        <div class="d-flex mt-5 ">
+          <p class="col-md-11 me-2">Vous avez obtenu l'examen du code dans les 5 dernieres années ?</p>
+          <div class="col-md-1 text-center">
+            <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value=""
+              aria-label="...">
           </div>
         </div>
         <!-- question 2 -->
-        <div class="d-flex m-2">
-          <p class="px-2">Avez vous auparavant obtenu un permis de conduire en france ?</p>
-          <div class=" d-flex">
-            <div>
-              <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value=""
-                aria-label="...">
-            </div>
+        <div class="d-flex">
+          <p class="col-lg-11 me-2">Vous avez obtenu un permis de conduire en france ?</p>
+          <div class="col-lg-1 text-center">
+            <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value=""
+              aria-label="...">
           </div>
-        </div><!-- question 3 -->
-        <div class="d-flex m-2">
-          <p class="px-2">Avez vous déjà obtenu un permis de conduire à l'étranger ?</p>
-          <div class=" d-flex">
-            <div>
-              <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value=""
-                aria-label="...">
-            </div>
+        </div>
+        <!-- question 3 -->
+        <div class="d-flex">
+          <p class="col-lg-11 me-2">Vous obtenu un permis de conduire à l'étranger ?</p>
+          <div class="col-lg-1 text-center">
+            <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value=""
+              aria-label="...">
           </div>
         </div>
         <!-- question 4 -->
-        <div class="d-flex m-2">
-          <p class="px-2">Faites-vous, actuellement, l'objet d'une annulation de permis ?</p>
-          <div class=" d-flex">
-            <div>
-              <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value=""
-                aria-label="...">
-            </div>
+        <div class="d-flex">
+          <p class="col-lg-11 me-2">Vous avez, actuellement, une annulation de permis ?</p>
+          <div class="col-lg-1 text-center">
+            <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value=""
+              aria-label="...">
           </div>
         </div>
         <!-- fin des questions -->
         <!-- envoi des documents -->
-        <p class="px-2">Merci de glisser déposer vos documents, copie de permis de conduire, justificatif d'dentité, de
-          domicile, en
-          pdf. De déposer les photos en jpeg.</p>
+        <div class="m-5">
+          <p>Merci de glisser déposer vos documents, copie de permis de conduire, justificatif d'dentité,
+            de domicile, en pdf. De déposer les photos en jpeg.</p>
+        </div>
       </div>
     </div>
     <!-- demande du futur élève -->
-    <h5 class="text-center m-5">Demande de permis en ligne</h5>
-    <div class="d-flex justify-content-around">
-      <select class="form-select form-select-lg mb-3 m-5" aria-label=".form-select-lg example">
-        <option selected>Permis</option>
-        <option value="1">Am</option>
-        <option value="2">A1</option>
-        <option value="3">A2</option>
-        <option value="3">B boite auto</option>
-        <option value="3">B manuelle</option>
-      </select>
-      <select class="form-select form-select-lg mb-3 m-5" aria-label=".form-select-lg example">
-        <option selected>methode</option>
-        <option value="1">classique</option>
-        <option value="2">conduite accompagnée</option>
-        <option value="3">conduite supervisée</option>
-      </select>
-      <select class="form-select form-select-lg mb-3 m-5" aria-label=".form-select-lg example">
-        <option selected>Forfait</option>
-        <option value="1">à l'heure</option>
-        <option value="2">forfait 20 heures</option>
-        <option value="3">forfait 30 heures</option>
-      </select>
-    </div>
-    <div class="d-flex justify-content-center">
-      <button type="button" class="btn btn-success">Validation</button>
-    </div>
-    <!-- fin de demande -->
-    <!-- page admin -->
-    <div class="container bg-dark bg-opacity-10">
-      <h5 class="text-center m-5 pt-5">Admin</h5>
-      <div class="row">
-        <h5>User</h5>
-        <p>Nom</p>
-        <p>Prénom</p>
-        <p>methode</p>
-        <p>permis</p>
-        <p>forfait</p>
-        <p>CRUD</p>
+    <h5 class="text-center my-5">Demande de permis en ligne</h5>
+    <div class="row col-lg-12 justify-content-center">
+      <div class="col-lg-4 my-3">
+        <select class="form-select form-select-lg" aria-label=".form-select-lg example">
+          <option selected>Permis</option>
+          <option value="1">Am</option>
+          <option value="2">A1</option>
+          <option value="3">A2</option>
+          <option value="4">B automatique</option>
+          <option value="5">B manuelle</option>
+        </select>
       </div>
-      <div class="row">
-        <h5>Article</h5>
-        <p>photo</p>
-        <p>Prénom</p>
-        <p>methode</p>
-        <p>permis</p>
-        <p>forfait</p>
-        <p>CRUD</p>
+      <div class="col-lg-4 my-3">
+        <select class="form-select form-select-lg" aria-label=".form-select-lg example">
+          <option selected>type de formation</option>
+          <option value="1">conduite classique</option>
+          <option value="2">conduite accompagnée</option>
+          <option value="3">conduite supervisée</option>
+          <option value="4">conduite accélérée</option>
+        </select>
       </div>
-      <h5>Messagerie</h5>
-      <p>nodemailer</p>
+      <div class="col-lg-4 my-3">
+        <select class="form-select form-select-lg" aria-label=".form-select-lg example">
+          <option selected>Forfait</option>
+          <option value="1">à l'heure</option>
+          <option value="2">forfait 5 heures</option>
+          <option value="3">forfait 13 heures</option>
+          <option value="4">forfait 20 heures</option>
+          <option value="5">forfait 30 heures</option>
+        </select>
+      </div>
+
+      <div class="d-flex justify-content-center my-5">
+        <button type="button" class="btn btn-success">Validation</button>
+      </div>
     </div>
-    <!-- <iframe
+  </div>
+  <!-- fin de demande -->
+  <!-- page admin -->
+  <div class="container bg-dark bg-opacity-10">
+    <h5 class="text-center m-5 pt-5">Admin</h5>
+    <h5>User</h5>
+    <div class="row">
+      <p class="col-md-2">Nom</p>
+      <p class="col-md-2">lire</p>
+      <p class="col-md-2">modifier</p>
+      <p class="col-md-2">suprimer</p>
+    </div>
+
+
+    <h5>Article</h5>
+    <div class="row">
+      <p>photo</p>
+      <p>Prénom</p>
+      <p>methode</p>
+      <p>permis</p>
+      <p>forfait</p>
+      <p>CRUD</p>
+    </div>
+    <h5>Messagerie</h5>
+    <p>nodemailer</p>
+  </div>
+  </div>
+  <!-- <iframe
     src="https://calendar.google.com/calendar/embed?src=j55pic36ff7qfma6k0c0tqubus%40group.calendar.google.com&ctz=Europe%2FBrussels"
     style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
 
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"></script>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
